@@ -1,0 +1,244 @@
+
+
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color:black;
+    max-height: fit-content;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#section1 p{
+    color: black;
+}
+
+a, .btn{
+
+    transition: all 300ms ease;
+}
+nav, .nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links{
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black
+}
+#Projects-icons{
+    margin-left: 8%;
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+#pic-container img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    transform: rotate(32deg);
+    
+}
+ #profile-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    margin-bottom: 20px;
+}
+#About{
+    margin-top: 20px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;  /* Stack items vertically */
+    align-items: center;     /* Center items horizontally */
+}
+
+#section-text{
+    margin-left: 20px;
+    text-align: center;
+}
+#About-header{
+    font-style: italic;
+    color: black;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 250px;
+    font-size: 30px;
+}
+#section-text-container{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 5%;
+    
+
+}
+#occupation{
+    padding: 30px;
+    font-size: 24px;
+    margin-left: 40%;
+}
+#education{
+  font-size: 24px;
+  margin-left: 10%;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+button{
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+}
+#Experience{
+    margin-bottom: 100px;
+}
+#experience-title{
+    margin-top: 400px;
+    text-align: center;
+   
+}
+#details-containers{
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;  /* Stack items vertically */
+    align-items: center
+    
+}
+#details-container{
+    border-radius: 20%;
+    border: 1px solid;
+    padding: 50px;
+    border-color: rgb(163, 163,163);
+
+}
+
+#Projects{
+    margin-bottom: 100px;
+}
+#projects-title{
+    text-align: center;
+    font-size: 100%;
+}
+#projects-title p{
+    font-size: 150%;
+    font-style: italic;
+}
+#Projects-icons{
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#Projects button{
+    padding: 15px;
+    font-size: 24px;
+}
+#Projects img{
+    opacity: 1;
+    border: 1px solid black;
+}
+#Projects img:hover{
+    opacity: 0.5;
+}
+#first-project{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+#second-project{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#third-project{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+#Contacts{
+    margin-bottom: 100px;
+}
+#Contacts a{
+    color: white;
+}
+#contacts p{
+    color: black;
+}
+
+#Contacts button{
+    margin-left: 40%;
+    margin-right: 45%;
+    padding: 20px 100px;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 100%;
+}
+#contacts-content{
+    font-size: 150%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-style: italic;
+    
+ 
+}
+footer{
+    background-color: beige;
+    height: 40vh;
+    margin: 0 1rem;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    #section-text-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
